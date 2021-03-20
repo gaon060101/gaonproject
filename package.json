@@ -1,0 +1,22 @@
+{
+  "name": "gaonproject",
+  "version": "1.0.0",
+  "description": "안녕하세요 백가온의 첫번째 프로젝트입니다 ㅎㅇㅎㅇ",
+  "main": "index.js",
+  "scripts": {
+    "start": "sudo nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gaon060101/gaonproject.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gaon060101/gaonproject/issues"
+  },
+  "homepage": "https://github.com/gaon060101/gaonproject#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
