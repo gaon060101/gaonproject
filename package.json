@@ -4,7 +4,8 @@
   "description": "안녕하세요 백가온의 첫번째 프로젝트입니다 ㅎㅇㅎㅇ",
   "main": "index.js",
   "scripts": {
-    "start": "concurrently \"tsc -w\" \"nodemon ./dist/index.js\""
+    "start": "concurrently \"tsc -w\" \"nodemon ./dist/index.js\"",
+    "start-server": "sudo concurrently \"sudo tsc -w\" \"sudo nodemon ./dist/index.js\""
   },
   "repository": {
     "type": "git",
