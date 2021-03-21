@@ -1,8 +1,9 @@
-const express = require('express')
-const fs = require('fs/promises')
-app = express();
+import express from 'express'
+import fs from 'fs/promises'
 
-app.use('/public', express.static('./data'))
+const app = express();
+
+app.use('./data', express.static('./data'))
 
 app.get('/', (req, res) => {
     res.sendFile('index.html', {
